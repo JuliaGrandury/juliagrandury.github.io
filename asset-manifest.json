@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.11c4a25a.css",
-    "main.js": "/static/js/main.3a892c80.js",
+    "main.css": "/static/css/main.f38ae521.css",
+    "main.js": "/static/js/main.e2865e00.js",
     "static/media/proj_midasreact.png": "/static/media/proj_midasreact.93e88e2535cc6ffb6e6c.png",
     "static/media/profile.jpeg": "/static/media/profile.79e5eff4e27d69adabb5.jpeg",
     "static/media/proj_chromeextension.png": "/static/media/proj_chromeextension.e9f0d49bdf31ba755a59.png",
     "static/media/proj_website2.png": "/static/media/proj_website2.6eb35afa103bbff2b682.png",
     "static/media/GranduryJulia_Resume.pdf": "/static/media/GranduryJulia_Resume.99ad6ac36f56c77a0f71.pdf",
+    "static/media/noimage.png": "/static/media/noimage.a940b6a7ce18e9ffd310.png",
     "index.html": "/index.html",
-    "main.11c4a25a.css.map": "/static/css/main.11c4a25a.css.map",
-    "main.3a892c80.js.map": "/static/js/main.3a892c80.js.map"
+    "main.f38ae521.css.map": "/static/css/main.f38ae521.css.map",
+    "main.e2865e00.js.map": "/static/js/main.e2865e00.js.map"
   },
   "entrypoints": [
-    "static/css/main.11c4a25a.css",
-    "static/js/main.3a892c80.js"
+    "static/css/main.f38ae521.css",
+    "static/js/main.e2865e00.js"
   ]
 }
