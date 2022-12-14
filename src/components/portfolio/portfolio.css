@@ -5,31 +5,45 @@
 }
 
 .portfolio__item {
-    background: var(--color-bg-variant);
+    background: var(--color-navy);
     padding: 1.2rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     border: 1px solid transparent;
     transition: var(--transition);
 }
 
-.portfolio__item:hover {
-    border-color: var(--color-primary-variant);
+/* .portfolio__item:hover {
+    border-color: var(--color-gray);
     background: transparent;
+} */
+
+.portfolio__item-tags {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    gap: 8px;
+    margin-bottom: 0.5rem;
 }
 
 .portfolio__item-image {
-    border-radius: 1.5rem;
+    border-radius: 5px;
     overflow: hidden;
 }
 
-.portfolio__item h3 {
+.portfolio__item h5 {
+    font-size: 14px;
     margin: 1.2rem 0 2rem;
 }
 
 .portfolio__item-calltoaction {
     display: flex;
     gap: 1rem;
-    margin-bottom: 1rem;
+}
+
+.portfolio__item-calltoaction a {
+    font-size: 10px;
+    padding: 0.3rem 0.75rem;
 }
 
 /* --------MEDIA QUERIES FOR MED DEVICES (medium: tablets)-------- */

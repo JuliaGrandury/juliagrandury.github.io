@@ -1,5 +1,6 @@
-.container.contact__container{
+.container.contact__container {
     width: 50%;
+    margin-bottom: 4rem;
 }
 
 form {
@@ -8,12 +9,18 @@ form {
     gap: 1.2rem;
 }
 
-input, textarea {
+input,
+textarea {
     width: 100%;
     padding: 1.5rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid var(--color-gray);
     resize: none;
     color: var(--color-white);
+    font-family: 'Roboto Mono', monospace;
+}
+
+button {
+    font-family: 'Roboto Mono', monospace;
 }

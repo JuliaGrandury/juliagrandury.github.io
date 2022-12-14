@@ -1,65 +1,90 @@
 import React from 'react'
 import './portfolio.css'
-import website_iteration_2 from '../../assets/website_iteration_2.png'
-//import picture phoenix
-//import picture of lifecycle
+import noimage from '../../assets/noimage.png'
+import proj_website2 from '../../assets/proj_website2.png'
+import proj_chromeextension from '../../assets/proj_chromeextension.png'
+import proj_midasreact from '../../assets/proj_midasreact.png'
+import Tag from './Tag'
 
 const portfolioProjects = [
   {
     id: 1,
-    image: website_iteration_2,
+    image: noimage,
     title: 'Phoenix App',
     github: 'https://github.com/JuliaGrandury/phoenix-app-pern',
-    demo: ''
+    demo: '',
+    tags: ['Personal Project', 'PostgreSQL', 'Express.js', 'React.js', 'Redux', 'Node.js'],
   },
   {
     id: 2,
-    image: website_iteration_2,
+    image: noimage,
     title: 'LifeCycle App',
     github: 'https://github.com/JuliaGrandury/lifecycle-app-mern',
-    demo: ''
+    demo: '',
+    tags: ['Personal Project', 'MongoDB', 'Express.js', 'React.js', 'Redux', 'Node.js'],
   },
   {
     id: 3,
-    image: website_iteration_2,
+    image: noimage,
     title: 'Tiger Moth Website',
     github: '',
-    demo: ''
+    demo: '',
+    tags: ['Freelance', 'HTML/CSS', 'Javascript'],
   },
   {
     id: 4,
-    image: website_iteration_2,
+    image: noimage,
     title: 'ACG Art Website',
     github: '',
-    demo: ''
+    demo: '',
+    tags: ['Freelance', 'React.js'],
   },
   {
-    id: 5, 
-    image: website_iteration_2,
+    id: 5,
+    image: proj_midasreact,
     title: 'Midas Spotify App',
     github: 'https://github.com/JuliaGrandury/midas-spotify-react',
-    demo: 'http://midas-spotifyapp.surge.sh/'
+    demo: 'http://midas-spotifyapp.surge.sh/',
+    tags: ['Personal Project', 'React.js', 'Surge'],
   },
   {
-    id: 6, 
-    image: website_iteration_2,
+    id: 6,
+    image: noimage,
     title: 'Web Scraper and Reservation Bot',
     github: '',
-    demo: ''
+    demo: '',
+    tags: ['Personal Project', 'Node.js'],
   },
   {
-    id: 7, 
-    image: website_iteration_2,
+    id: 7,
+    image: proj_chromeextension,
     title: 'Brighter Days Chrome Extension',
-    github: '',
-    demo: ''
+    github: 'https://github.com/JuliaGrandury/brighterdays-extension',
+    demo: null,
+    tags: ['Personal Project', 'Node.js'],
+  },
+  {
+    id: 8,
+    image: noimage,
+    title: 'Awash Awash Documentary Website',
+    github: 'https://github.com/JuliaGrandury/claradocsite_react',
+    demo: '',
+    tags: ['Freelance', 'React.js'],
+  },
+  {
+    id: 9,
+    image: proj_website2,
+    title: 'Portfolio Website Iteration 2',
+    github: 'https://github.com/JuliaGrandury/juliagrandury-iteration2',
+    demo: 'https://juliagrandury.github.io/juliagrandury-iteration2/',
+    tags: ['Personal Project', 'React.js'],
   }
 ]
 
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
+      <h5>Work from 2022</h5>
       <h2>Portfolio</h2>
 
       <div className='container portfolio__container'>
@@ -67,13 +92,16 @@ const Portfolio = () => {
           portfolioProjects.map((project) => {
             return (
               <article key={project.id} className='portfolio__item'>
+                <div className='portfolio__item-tags'>
+                  {project.tags.map((tag) => <Tag label={tag} />)}
+                </div>
                 <div className='portfolio__item-image'>
                   <img src={project.image} alt={project.title} />
                 </div>
-                <h3>{project.title}</h3>
+                <h5>{project.title}</h5>
                 <div className='portfolio__item-calltoaction'>
-                  <a href={project.github}className='btn' target='_blank'>Github</a>
-                  <a href={project.demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                  <a href={project.github} className='btn' target='_blank'>Github</a>
+                  {project.demo !== null ? <a href={project.demo} className='btn btn-primary' target='_blank'>Live Demo</a> : ''}
                 </div>
               </article>
             )

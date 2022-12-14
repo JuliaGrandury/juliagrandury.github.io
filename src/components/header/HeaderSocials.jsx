@@ -9,7 +9,6 @@ const HeaderSocials = () => {
       <a href="https://www.linkedin.com/in/jgrandury/" rel="noreferrer" target="_blank"><BsLinkedin /></a>
       <a href="https://github.com/JuliaGrandury" rel="noreferrer" target="_blank"><FaGithub /></a>
       <a href="https://medium.com/@juliagrandury" rel="noreferrer" target="_blank"><AiFillMediumSquare /></a>
-      {/* <a href="" target="_blank"></a> */}
     </div>
   )
 }
