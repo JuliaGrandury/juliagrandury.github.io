@@ -17,7 +17,7 @@ const Nav = () => {
       <a href="#experience" onClick={() => setActiveIcon("#experience")} className={activeIcon==="#experience" ? "active" : ""}><BsKeyboard /></a>
       {/* <a href="#services" onClick={() => setActiveIcon("#services")} className={activeIcon==="#services" ? "active" : ""}><RiServiceLine /></a> */}
       <a href="#portfolio" onClick={() => setActiveIcon("#portfolio")} className={activeIcon==="#portfolio" ? "active" : ""}><BsFolder2 /></a>
-      <a href="#testimonials" onClick={() => setActiveIcon("#testimonials")} className={activeIcon==="#testimonials" ? "active" : ""}><BsChatLeftQuote /></a>
+      {/* <a href="#testimonials" onClick={() => setActiveIcon("#testimonials")} className={activeIcon==="#testimonials" ? "active" : ""}><BsChatLeftQuote /></a> */}
       <a href="#contact" onClick={() => setActiveIcon("#contact")} className={activeIcon==="#contact" ? "active" : ""}><AiOutlinePhone /></a>
     </nav>
   )

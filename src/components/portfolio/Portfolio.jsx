@@ -4,6 +4,7 @@ import noimage from '../../assets/noimage.png'
 import proj_website2 from '../../assets/proj_website2.png'
 import proj_chromeextension from '../../assets/proj_chromeextension.png'
 import proj_midasreact from '../../assets/proj_midasreact.png'
+import proj_claradocsite from '../../assets/proj_claradocsite.png'
 import Tag from './Tag'
 
 const portfolioProjects = [
@@ -65,10 +66,10 @@ const portfolioProjects = [
   },
   {
     id: 8,
-    image: noimage,
+    image: proj_claradocsite,
     title: 'Awash Awash Documentary Website',
     github: 'https://github.com/JuliaGrandury/claradocsite_react',
-    demo: '',
+    demo: 'https://juliagrandury.github.io/claradocsite_react/',
     tags: ['Freelance', 'React.js'],
   },
   {

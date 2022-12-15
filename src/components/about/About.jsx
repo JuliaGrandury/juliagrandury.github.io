@@ -10,7 +10,7 @@ const About = () => {
 
         <div className="about__content">
           <p>
-            I am a self-taught Software Engineer looking to work in a fast paced environment that will allow me to further sharpen my skills as a developer and learn from passionate and dedicated peers.
+            I am a Software Engineer looking to work in a fast paced environment that will allow me to further sharpen my skills as a developer and learn from passionate and dedicated peers.
             I am specialized in the Front End but interested in the Full Stack - <a href="#experience">see my stack</a>.
             My professional areas of interest include but are not limited to marine biology and exploration, racial and gender bias in AI and access to online mental and physical health care.
           </p>
