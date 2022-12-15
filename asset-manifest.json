@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f38ae521.css",
-    "main.js": "/static/js/main.e2865e00.js",
+    "main.js": "/static/js/main.90eb320b.js",
+    "static/media/proj_claradocsite.png": "/static/media/proj_claradocsite.0ec4deaff599a29f540e.png",
     "static/media/proj_midasreact.png": "/static/media/proj_midasreact.93e88e2535cc6ffb6e6c.png",
     "static/media/profile.jpeg": "/static/media/profile.79e5eff4e27d69adabb5.jpeg",
     "static/media/proj_chromeextension.png": "/static/media/proj_chromeextension.e9f0d49bdf31ba755a59.png",
@@ -10,10 +11,10 @@
     "static/media/noimage.png": "/static/media/noimage.a940b6a7ce18e9ffd310.png",
     "index.html": "/index.html",
     "main.f38ae521.css.map": "/static/css/main.f38ae521.css.map",
-    "main.e2865e00.js.map": "/static/js/main.e2865e00.js.map"
+    "main.90eb320b.js.map": "/static/js/main.90eb320b.js.map"
   },
   "entrypoints": [
     "static/css/main.f38ae521.css",
-    "static/js/main.e2865e00.js"
+    "static/js/main.90eb320b.js"
   ]
 }
