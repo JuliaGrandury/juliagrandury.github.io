@@ -67,7 +67,7 @@ const portfolioProjects = [
   {
     id: 8,
     image: proj_claradocsite,
-    title: 'Awash Awash Documentary Website',
+    title: 'Yawash Yawash Documentary Website',
     github: 'https://github.com/JuliaGrandury/claradocsite_react',
     demo: 'https://juliagrandury.github.io/claradocsite_react/',
     tags: ['Freelance', 'React.js'],

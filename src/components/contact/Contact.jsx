@@ -3,6 +3,7 @@ import './contact.css'
 
 const Contact = () => {
   const form = useRef();
+  
   const sendEmail = (event) => {
     event.preventDefault();
 
