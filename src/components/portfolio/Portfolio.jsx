@@ -1,6 +1,7 @@
 import React from 'react'
 import './portfolio.css'
 import noimage from '../../assets/noimage.png'
+import proj_phoenix from '../../assets/proj_phoenix.png'
 import proj_website2 from '../../assets/proj_website2.png'
 import proj_chromeextension from '../../assets/proj_chromeextension.png'
 import proj_midasreact from '../../assets/proj_midasreact.png'
@@ -10,7 +11,7 @@ import Tag from './Tag'
 const portfolioProjects = [
   {
     id: 1,
-    image: noimage,
+    image: proj_phoenix,
     title: 'Phoenix App',
     github: 'https://github.com/JuliaGrandury/phoenix-app-pern',
     demo: '',
