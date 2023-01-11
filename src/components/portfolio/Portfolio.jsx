@@ -86,7 +86,7 @@ const portfolioProjects = [
 const Portfolio = () => {
   return (
     <section id="portfolio">
-      <h5>Work from 2022</h5>
+      <h5>Work from 2022-2023</h5>
       <h2>Portfolio</h2>
 
       <div className='container portfolio__container'>
