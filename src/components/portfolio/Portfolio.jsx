@@ -14,7 +14,7 @@ const portfolioProjects = [
     image: proj_phoenix,
     title: 'Phoenix App',
     github: 'https://github.com/JuliaGrandury/phoenix-app-pern',
-    demo: '',
+    demo: null,
     tags: ['Personal Project', 'PostgreSQL', 'Express.js', 'React.js', 'Redux', 'Node.js'],
   },
   {
@@ -22,7 +22,7 @@ const portfolioProjects = [
     image: noimage,
     title: 'LifeCycle App',
     github: 'https://github.com/JuliaGrandury/lifecycle-app-mern',
-    demo: '',
+    demo: null,
     tags: ['Personal Project', 'MongoDB', 'Express.js', 'React.js', 'Redux', 'Node.js'],
   },
   {
@@ -30,7 +30,7 @@ const portfolioProjects = [
     image: noimage,
     title: 'Tiger Moth Website',
     github: '',
-    demo: '',
+    demo: null,
     tags: ['Freelance', 'HTML/CSS', 'Javascript'],
   },
   {
@@ -38,7 +38,7 @@ const portfolioProjects = [
     image: noimage,
     title: 'ACG Art Website',
     github: '',
-    demo: '',
+    demo: null,
     tags: ['Freelance', 'React.js'],
   },
   {
@@ -54,7 +54,7 @@ const portfolioProjects = [
     image: noimage,
     title: 'Web Scraper and Reservation Bot',
     github: '',
-    demo: '',
+    demo: null,
     tags: ['Personal Project', 'Node.js'],
   },
   {
@@ -102,8 +102,8 @@ const Portfolio = () => {
                 </div>
                 <h5>{project.title}</h5>
                 <div className='portfolio__item-calltoaction'>
-                  <a href={project.github} className='btn' target='_blank'>Github</a>
-                  {project.demo !== null ? <a href={project.demo} className='btn btn-primary' target='_blank'>Live Demo</a> : ''}
+                  <a href={project.github} className='btn' target='_blank' rel='noreferrer'>Github</a>
+                  {project.demo !== null ? <a href={project.demo} className='btn btn-primary' target='_blank' rel='noreferrer'>Live Demo</a> : ''}
                 </div>
               </article>
             )
