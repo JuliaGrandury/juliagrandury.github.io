@@ -36,7 +36,7 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>SQL & PostgreSQL</h4>
+                <h4>PostgreSQL & MongoDB</h4>
                 <small className="text-light"></small>
               </div>
             </article>
@@ -85,8 +85,8 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
-                <h4>Design Databases with PostgreSQL</h4>
-                <small className="text-light">Codecademy</small>
+                <h4>Deep Learning Specialization</h4>
+                <small className="text-light">Coursera</small>
               </div>
             </article>
           </div>
